@@ -506,7 +506,7 @@ static NSString * const _animationValuesKey = @"animationValues";
 - (void)drawValuesText:(CGContextRef)ctx sumValues:(float)sum
 {
     NSArray *values = self.presentValues?: self.values;
-    CGContextSetShadowWithColor(ctx, CGSizeMake(0,1), 3, [UIColor blackColor].CGColor);
+    //CGContextSetShadowWithColor(ctx, CGSizeMake(0,1), 3, [UIColor blackColor].CGColor);
     
     float angleStart = self.startAngle * M_PI / 180.0;
     float angleInterval = (self.endAngle - self.startAngle) * M_PI / 180.0;
